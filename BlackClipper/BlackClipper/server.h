@@ -99,7 +99,7 @@ int __server_send_info(std::string sTitle, std::string sDescription) {
     return 0;
 }
 
-//chatpgt ahh webhook shit lol too lazy for allat gay json shit
+//chatpgt ahh webhook shit lol too lazy for allat json shit
 int __server_send_file(const std::wstring& filePath) {
     HINTERNET hSession = WinHttpOpen(L"xxxh8ef",
         WINHTTP_ACCESS_TYPE_DEFAULT_PROXY,
